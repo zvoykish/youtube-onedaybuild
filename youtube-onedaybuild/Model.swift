@@ -30,7 +30,14 @@ class Model {
             }
             
             // Parsing the data
-            print(response)
+            do {
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                let r2 = try decoder.decode(Response.self, from: data!)
+                dump (r2)
+            } catch {
+                
+            }
         }
         
         // Kick off the task
