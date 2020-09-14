@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9E4D621D250F587F0011A108 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D621C250F587F0011A108 /* CacheManager.swift */; };
+		9E4D621F250F5C040011A108 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D621E250F5C040011A108 /* DetailViewController.swift */; };
+		9E4D6221250F60850011A108 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D6220250F60850011A108 /* DateManager.swift */; };
 		9E7C8588250F42590041185E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C8587250F42590041185E /* Constants.swift */; };
 		9ED2ED98250F50E400F28C9C /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED2ED97250F50E400F28C9C /* VideoTableViewCell.swift */; };
 		9ED4E357250E1972004C470C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4E356250E1972004C470C /* AppDelegate.swift */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		9E4D621C250F587F0011A108 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		9E4D621E250F5C040011A108 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9E4D6220250F60850011A108 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 		9E7C8587250F42590041185E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9ED2ED97250F50E400F28C9C /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		9ED4E353250E1972004C470C /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +58,7 @@
 			children = (
 				9E7C8587250F42590041185E /* Constants.swift */,
 				9E4D621C250F587F0011A108 /* CacheManager.swift */,
+				9E4D6220250F60850011A108 /* DateManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				9ED4E35A250E1972004C470C /* ViewController.swift */,
+				9E4D621E250F5C040011A108 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 				9ED4E36F250ECFD0004C470C /* Model.swift in Sources */,
 				9E7C8588250F42590041185E /* Constants.swift in Sources */,
 				9ED2ED98250F50E400F28C9C /* VideoTableViewCell.swift in Sources */,
+				9E4D6221250F60850011A108 /* DateManager.swift in Sources */,
+				9E4D621F250F5C040011A108 /* DetailViewController.swift in Sources */,
 				9ED4E36D250ECF9D004C470C /* Video.swift in Sources */,
 				9ED4E371250ED9A8004C470C /* Response.swift in Sources */,
 			);
