@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E7C8588250F42590041185E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C8587250F42590041185E /* Constants.swift */; };
+		9E7C858A250F4B1B0041185E /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C8589250F4B1B0041185E /* ConstantsTemplate.swift */; };
 		9ED4E357250E1972004C470C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4E356250E1972004C470C /* AppDelegate.swift */; };
 		9ED4E359250E1972004C470C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4E358250E1972004C470C /* SceneDelegate.swift */; };
 		9ED4E35B250E1972004C470C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4E35A250E1972004C470C /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		9E7C8587250F42590041185E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9E7C8589250F4B1B0041185E /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		9ED4E353250E1972004C470C /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED4E356250E1972004C470C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ED4E358250E1972004C470C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				9ED4E36E250ECFD0004C470C /* Model.swift */,
 				9ED4E370250ED9A8004C470C /* Response.swift */,
 				9E7C8587250F42590041185E /* Constants.swift */,
+				9E7C8589250F4B1B0041185E /* ConstantsTemplate.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				9ED4E35B250E1972004C470C /* ViewController.swift in Sources */,
 				9ED4E357250E1972004C470C /* AppDelegate.swift in Sources */,
 				9ED4E359250E1972004C470C /* SceneDelegate.swift in Sources */,
+				9E7C858A250F4B1B0041185E /* ConstantsTemplate.swift in Sources */,
 				9ED4E36F250ECFD0004C470C /* Model.swift in Sources */,
 				9E7C8588250F42590041185E /* Constants.swift in Sources */,
 				9ED4E36D250ECF9D004C470C /* Video.swift in Sources */,

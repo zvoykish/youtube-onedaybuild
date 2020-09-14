@@ -8,7 +8,14 @@
 
 import Foundation
 
+protocol ModelDelegate {
+    func videosFetched(_ videos:[Video])
+}
+
 class Model {
+    
+    var delegate:ModelDelegate?
+    
     func getVideos () {
         
         // Create a URL object
@@ -33,8 +40,12 @@ class Model {
             do {
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
-                let r2 = try decoder.decode(Response.self, from: data!)
-                dump (r2)
+                let decodedResponse = try decoder.decode(Response.self, from: data!)
+                if decodedResponse.items != nil {
+                    DispatchQueue.main.async {
+                        self.delegate?.videosFetched(decodedResponse.items!)
+                    }
+                }
             } catch {
                 
             }
